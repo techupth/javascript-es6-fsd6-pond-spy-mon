@@ -13,4 +13,11 @@ let additionalProperties = {
 
 // Start coding here
 
+let {name, age, scores} = studentProfile
+let {photo, hobbies} = additionalProperties
+
+let newStudentProfile = { name, age, scores, photo, hobbies}
+
+// let newStudentProfile = {...studentProfile,...additionalProperties}
+
 console.log(newStudentProfile);

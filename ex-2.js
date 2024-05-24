@@ -14,4 +14,6 @@ let studentScores = {
 
 // Start coding here
 
+let newStudentProfile = {...studentProfile,...studentScores}
+
 console.log(newStudentProfile);
